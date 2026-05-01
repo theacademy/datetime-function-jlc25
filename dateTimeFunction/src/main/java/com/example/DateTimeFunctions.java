@@ -57,7 +57,6 @@ public class DateTimeFunctions {
 	 */
 	public static String getTimeDifference(LocalDate date1, LocalDate date2) {
 		//YOUR CODE STARTS HERE
-
 		Period timeDifference = date1.until(date2);
 
 		// Parse answer into years, months, days
